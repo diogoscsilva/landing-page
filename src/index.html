@@ -1,27 +1,129 @@
 <!DOCTYPE html>
 <html lang = "pt-br">
+
   <head>
     <base target="_top">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css">
+    <meta http-equi= "X-UA-Compatible" content = "IE=edge">
+    <meta name= "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/style.css">
     <meta charset = "UTF-8">
+    <title>MEGA PROMOÇÃO</title>
   </head>
+
   <body>
-    <header>
+    <header  role = "banner">
+      <h1>LOJA SALDÃO DAS OFERTAS</h1>
     </header>
-    <nav>
+
+    <nav role = "navigation" aria-level = "main navigation">
+      <ul>
+        <li><a href="#" role = "menuitem">Inicio</a></li>
+        <li><a href="#produtos" role = "menuitem">Ofertas</a></li>
+        <li><a href="#content" role = "menuitem">Cadastro</a></li>
+      </ul>
     </nav>
-    <main>
-      <div class = "sections">
-        <section>
+
+    <main role="main">
+
+      <div id = 'produtos' class = "sections">
+        <section class= "section">
+          <div class = "card">
+              <h3 class = "product-name">M7450</h3>
+              <img
+                  src = "./assets/apple.jpg" alt="notebook">
+              <p class = "description">De: R$11.799,99<br/>
+                Por: <span></span>
+              </p>
+          </div>
+
+          <div class = "card">
+              <h3 class = "">KR 28 super wide</h3>
+              <img
+                  src = "./assets/monitor.png" atl = "monitor">
+              <p class = "description">De: R$849,99<br/>
+                Por: <span></span>
+              </p>
+          </div>
         </section>
-        <section>
+
+        <section class= "section informes" >
+          <div>
+              <ul class = "topicos"> 
+                <li>Ofertas imperdíveis com descontos reais.</li>
+                <li>Todos os departamento com descontos de 20 a 40%.</li>
+                <li>Corra! Ofertas válidas apenas enquanto durarem os estoques.</li>
+                <li>Cadastre seu e-mail e receba antecipadamente as melhores ofertas</li>
+              </ul>
+          </div>
+
+          <div>
+              <p class = "alerta">A partir das 00H desta sexta-feira,</br>
+                 enquanto durarem os estoques.
+              </p>
+          </div>
         </section>
-    </div>
+
+        <section class= "section">
+          <div class = "card">
+              <h3 class = "product-name">S18c</h3>
+              <img
+                  src = "./assets/smartphone.png" atl = "smartphone">
+              <p class = "description">De: R$5699,99<br/>
+                Por: <span> </span>
+              </p>
+          </div>
+
+          <div class = "card">
+              <h3 class = "product-name">Toster 4000</h3>
+              <img
+                  src = "./assets/bread.jpg" alt = "toster bread">
+              <p class = "description">De: R$399,99<br/>
+                Por: <span> </span>
+              </p>
+          </div>
+        </section>
+
+        <section class= "section">
+          <div class = "card">
+              <h3 class = "product-name">Black Iron</h3>
+              <img
+                  src = "./assets/iron.jpg" atl = "iron">
+              <p class = "description">De: R$189,99<br/>
+                Por: <span> </span>
+              </p>
+          </div>
+
+          <div class = "card">
+              <h3 class = "product-name">Razor blade</h3>
+              <img
+                  src = "./assets/razor.jpg" atl = "razor">
+              <p class = "description">De: R$149,99<br/>
+                Por: <span> </span>
+              </p>
+          </div>
+        </section>
+
+        <section class= "section">
+          <div class= "card-container">
+            <div id = "content">
+              <form id = "form" action="">
+                <input id= "nome" type="text" placeholder= "nome">
+                <input id= "email" type="email" placeholder= "email">
+                <input type="submit" value = "cadastrar" aria-label = "Enivar os dados para cadastro">
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <aside>
       </aside>
     </main>
-    <footer>
+
+    <footer role = "contentinfo">
+      <p>Todos os direitos reservados</p>
     </footer>
+
+    <script type='text/javascript' src= "./js/script.js" ></script>
   </body>
 </html>
