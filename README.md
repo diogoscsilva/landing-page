@@ -1,0 +1,1 @@
+Landing page simples para atividade de aprendizado no Hiring Coders.
